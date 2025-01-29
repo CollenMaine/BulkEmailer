@@ -111,7 +111,7 @@ namespace Emailer
         {
             filePath = attachment;
             var email = new MimeMessage();
-            email.From.Add(new MailboxAddress("Cramdown", "dev@cramdown.co.za"));
+            email.From.Add(new MailboxAddress("########", "##################"));
             email.To.Add(new MailboxAddress(_toName, _toEmail));
             email.Subject = _subject;
 
